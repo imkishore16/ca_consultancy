@@ -1,6 +1,6 @@
 import styles from "../style";
 import { discount, robot, handshake } from "../assets";
-import GetStarted from "../../ignore/GetStarted";
+import GetStarted from "./GetStarted";
 
 const Hero = () => {
   return (
