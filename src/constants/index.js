@@ -20,3 +20,17 @@ export const navLinks = [
     title: "Contact us",
   },
 ];
+export const reviews = [
+  {
+    title: "review 1",
+  },
+  {
+    title: "review 2",
+  },
+  {
+    title: "review 3",
+  },
+  {
+    title: "review 4",
+  },
+];

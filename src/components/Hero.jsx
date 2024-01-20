@@ -1,5 +1,5 @@
 import styles from "../style";
-import { discount, robot, handshake } from "../assets";
+import { discount, robot, handshake, handshake2 } from "../assets";
 import GetStarted from "./GetStarted";
 
 const Hero = () => {
@@ -9,23 +9,22 @@ const Hero = () => {
         className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6`}
       >
         {/* children */}
-        <div className="flex flex-row items-center py-[6px] px-4 bg-discount-gradient rounded-[10px] mb-2">
+        {/* <div className="flex flex-row items-center py-[6px] px-4 bg-discount-gradient rounded-[10px] mb-2">
           <img src={discount} alt="discount" className="w-[32px] h-[32px]" />
           <p className={`${styles.paragraph} ml-2`}>
             <span className="text-white">Write </span> Something{" "}
             <span className="text-white">here </span> cool design
           </p>
-        </div>
-
+        </div> */}
         <div className="flex flex-row justify-between items-center w-full">
-          <h1 className="flex-1 font-poppins font-semibold ss:text-[52px] text-[32px] text-black ss:leading-[70.8px] leading-[55px] w-full">
-            Stratergic Excellence, <br className="sm:block hidden" />{" "}
-            <span className="text-gradient-orange">Financial Finesse </span>{" "}
+          <h1 className="flex-1 font-poppins text-center font-semibold ss:text-[52px] text-[32px] text-black ss:leading-[70.8px] leading-[55px] w-full">
+            Stratergic Excellence, Financial Finesse
+            <br className="sm:block hidden" />{" "}
           </h1>
         </div>
-
-        <h1 className="font-poppins font-semibold ss:text-[52px] text-[32px] text-black ss:leading-[70.8px] leading-[55px] w-full">
-          Elevating Your Business in style
+        <h1 className="font-poppins text-center font-semibold ss:text-[52px] text-[32px] text-black ss:leading-[70.8px] leading-[55px] w-full">
+          Elevating Your Business in
+          <span className="text-gradient-orange"> Style.</span>{" "}
         </h1>
         {/* <div className="ss:flex hidden md:mr-4 mr-0 mt-6">
           <GetStarted />
@@ -43,7 +42,7 @@ const Hero = () => {
         className={`flex-1 flex ${styles.flexCenter} md:my-0 my-4 relative w-[100%]`}
       >
         <img
-          src={handshake}
+          src={handshake2}
           alt="handwshke"
           className="w-[100%] h-[100%]  relative z-[5]"
         />

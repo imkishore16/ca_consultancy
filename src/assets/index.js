@@ -24,6 +24,7 @@ import people01 from "./people01.png";
 import people02 from "./people02.png";
 import people03 from "./people03.png";
 import handshake from "./handshake.svg";
+import handshake2 from "./handshake2.svg";
 import csr from "./csr.svg";
 import background from "./background.png";
 import CSR_logo from "./CSR_logo.png";
@@ -32,6 +33,7 @@ export {
   background,
   csr,
   handshake,
+  handshake2,
   airbnb,
   bill,
   binance,
