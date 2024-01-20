@@ -26,8 +26,9 @@ import people03 from "./people03.png";
 import handshake from "./handshake.svg";
 import csr from "./csr.svg";
 import background from "./background.png";
-
+import CSR_logo from "./CSR_logo.png";
 export {
+  CSR_logo,
   background,
   csr,
   handshake,

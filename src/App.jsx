@@ -5,7 +5,7 @@ import { background } from "./assets";
 const App = () => (
   // <div className="bg-white w-full overflow-hidden">
   <div className="bg-cover bg-center bg-[url('./assets/background.png')]">
-    <div className={`${styles.paddingX} ${styles.flexCenter}`}>
+    <div className={`${styles.paddingX} ${styles.flexCenter} bg-black`}>
       <div className={`${styles.boxWidth}`}>
         <Navbar />
       </div>
