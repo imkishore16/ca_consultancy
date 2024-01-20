@@ -25,7 +25,10 @@ import people02 from "./people02.png";
 import people03 from "./people03.png";
 import handshake from "./handshake.svg";
 import csr from "./csr.svg";
+import background from "./background.png";
+
 export {
+  background,
   csr,
   handshake,
   airbnb,

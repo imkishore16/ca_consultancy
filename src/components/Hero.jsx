@@ -18,13 +18,13 @@ const Hero = () => {
         </div>
 
         <div className="flex flex-row justify-between items-center w-full">
-          <h1 className="flex-1 font-poppins font-semibold ss:text-[52px] text-[32px] text-white ss:leading-[70.8px] leading-[55px] w-full">
+          <h1 className="flex-1 font-poppins font-semibold ss:text-[52px] text-[32px] text-black ss:leading-[70.8px] leading-[55px] w-full">
             Stratergic Excellence, <br className="sm:block hidden" />{" "}
-            <span className="text-gradient">Financial Finesse </span>{" "}
+            <span className="text-gradient-orange">Financial Finesse </span>{" "}
           </h1>
         </div>
 
-        <h1 className="font-poppins font-semibold ss:text-[52px] text-[32px] text-white ss:leading-[70.8px] leading-[55px] w-full">
+        <h1 className="font-poppins font-semibold ss:text-[52px] text-[32px] text-black ss:leading-[70.8px] leading-[55px] w-full">
           Elevating Your Business in style
         </h1>
         {/* <div className="ss:flex hidden md:mr-4 mr-0 mt-6">
@@ -32,20 +32,19 @@ const Hero = () => {
         </div> */}
       </div>
       <p
-        className={`${styles.paragraph} max-w-[100%] mt-5 text-center ml-48 mr-48`}
+        className={`text-black max-w-[100%] mt-5 text-center ml-48 mr-48 font-poppins font-normal text-[18px] leading-[30.8px]`}
       >
-        Our team of experts uses a methodology to identify the credit cards most
-        <span className="text-gradient">
-          {" "}
-          your needs. We examine annual percentage rates, annual fees.{" "}
-        </span>{" "}
-        likely to fit
+        We are business consultant is company with a wide array of skills who
+        assists business owners with their endeavors. Consultants are
+        knowledgeable because of their education and previous experience.
       </p>
 
-      <div className={`flex-1 flex ${styles.flexCenter} md:my-0 my-4 relative`}>
+      <div
+        className={`flex-1 flex ${styles.flexCenter} md:my-0 my-4 relative w-[100%]`}
+      >
         <img
           src={handshake}
-          alt="billing"
+          alt="handwshke"
           className="w-[100%] h-[100%]  relative z-[5]"
         />
 
