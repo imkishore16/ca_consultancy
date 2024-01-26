@@ -1,5 +1,5 @@
 import styles from "./style";
-import { Hero, Navbar } from "./components";
+import { Hero, Navbar, About, Review, SliderComponent } from "./components";
 import { background } from "./assets";
 
 const App = () => (
@@ -20,6 +20,8 @@ const App = () => (
     <div className={`${styles.flexCenter}`}>
       <div className={`${styles.boxWidth}`}>
         <Hero />
+        <About />
+        <Review />
       </div>
     </div>
 

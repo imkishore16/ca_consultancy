@@ -28,7 +28,12 @@ import handshake2 from "./handshake2.svg";
 import csr from "./csr.svg";
 import background from "./background.png";
 import CSR_logo from "./CSR_logo.png";
+import dottedline from "./dottedline.svg";
+import paperplane from "./paperplane.svg";
+
 export {
+  paperplane,
+  dottedline,
   CSR_logo,
   background,
   csr,

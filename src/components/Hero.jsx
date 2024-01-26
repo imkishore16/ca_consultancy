@@ -30,13 +30,13 @@ const Hero = () => {
           <GetStarted />
         </div> */}
       </div>
-      <p
-        className={`text-black max-w-[100%] mt-5 text-center ml-48 mr-48 font-poppins font-normal text-[18px] leading-[30.8px]`}
-      >
-        We are business consultant is company with a wide array of skills who
-        assists business owners with their endeavors. Consultants are
-        knowledgeable because of their education and previous experience.
-      </p>
+      <div className="flex justify-center items-center h-full">
+        <p className="text-[18px] leading-[30.8px] max-w-[770px] mt-5 text-black text-center font-poppins">
+          We are business consultants, a company with a wide array of skills who
+          assists business owners with their endeavors. Consultants are
+          knowledgeable because of their education and previous experience.
+        </p>
+      </div>
 
       <div
         className={`flex-1 flex ${styles.flexCenter} md:my-0 my-4 relative w-[100%]`}
