@@ -1,0 +1,54 @@
+.qq1
+{
+    font-weight: 750;
+    width: 180px;
+    text-align: center;
+    /* background-color: brown; */
+}
+
+.qq2
+{
+    font-weight: 750;
+    width: 190px;
+    text-align: center;
+    /* background-color: yellow; */
+}
+
+.qq3
+{
+    font-weight: 750;
+    width: 190px;
+    text-align: center;
+    /* background-color: blue; */
+}
+
+.qq4
+{
+    font-weight: 750;
+    width: 190px;
+    text-align: center;
+    /* background-color: aqua; */
+}
+
+@media only screen and (max-width: 768px) 
+{
+    .qq1
+    {
+        width: 100%;
+    }
+    .qq2
+    {
+        width: 100%;
+    }
+    .qq3
+    {
+        width: 100%;
+    }
+    .qq4
+    {
+        width: 100%;
+    }
+
+}
+
+

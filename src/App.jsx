@@ -1,32 +1,33 @@
-import styles from "./style";
-import { Hero, Navbar, About, Review, SliderComponent } from "./components";
-import { background } from "./assets";
-
-const App = () => (
-  // <div className="bg-white w-full overflow-hidden">
-  <div className="bg-cover bg-center bg-[url('./assets/background.png')]">
-    <div className={`${styles.paddingX} ${styles.flexCenter} bg-black`}>
-      <div className={`${styles.boxWidth}`}>
-        <Navbar />
-      </div>
-    </div>
-
-    {/* <div className={`bg-primary ${styles.flexStart}`}>
-      <div className={`${styles.boxWidth}`}>
-        <Hero />
-        </div>
-      </div> */}
-    {/* <div className="bg-cover bg-center bg-[url('./assets/background.jpg')]"> */}
-    <div className={`${styles.flexCenter}`}>
-      <div className={`${styles.boxWidth}`}>
-        <Hero />
+import "./App.css";
+import Service from "./components/service";
+import About from "./components/about";
+import Test from "./components/test";
+import Home from "./components/home";
+// import Navbar from "./components/navbar";
+import Carousal from "./components/Carousal";
+import Foot from "./components/foot";
+import Footer from "./components/Footer";
+function App() {
+  return (
+    <>
+      <div
+        style={{
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+          backgroundImage: "url('src/images/background.png')",
+        }}
+      >
+        {/* <Navbar /> */}
+        {/* <Home />
         <About />
-        <Review />
+        <Service />
+        <Test /> */}
+        <Carousal />
+        {/* <Foot />
+        <Footer /> */}
       </div>
-    </div>
-
-    {/*  */}
-  </div>
-);
+    </>
+  );
+}
 
 export default App;
