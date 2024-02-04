@@ -18,13 +18,13 @@ function App() {
         }}
       >
         {/* <Navbar /> */}
-        {/* <Home />
+        <Home />
         <About />
         <Service />
-        <Test /> */}
+        <Test />
         <Carousal />
-        {/* <Foot />
-        <Footer /> */}
+        <Foot />
+        <Footer />
       </div>
     </>
   );
