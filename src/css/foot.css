@@ -1,40 +1,33 @@
-.qq1
+.mt-4
 {
     font-weight: 750;
-    width: 180px;
     text-align: center;
-    /* background-color: brown; */
+    justify-content: center;
+    display: flex; /* or display: grid; */
+  flex-wrap: wrap; /* or grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); */
+  gap: 10%;
+    /* justify-content: space-between; */
 }
 
-.qq2
+@media only screen and (max-width: 950px)
 {
-    font-weight: 750;
-    width: 190px;
-    text-align: center;
-    /* background-color: yellow; */
-}
-
-.qq3
-{
-    font-weight: 750;
-    width: 190px;
-    text-align: center;
-    /* background-color: blue; */
-}
-
-.qq4
-{
-    font-weight: 750;
-    width: 190px;
-    text-align: center;
-    /* background-color: aqua; */
-}
+    .mt-4
+    {
+        gap: 5%;
+    }
+} 
 
 @media only screen and (max-width: 768px) 
 {
+    .mt-4
+    {
+        display: grid;
+        gap: 10px;
+    }
     .qq1
     {
         width: 100%;
+        margin-left: 0px;
     }
     .qq2
     {

@@ -17,9 +17,9 @@ export default function Foot() {
         }}
         className="text-center text-md-start mt-5"
       >
-        <MDBRow className="mt-4">
+        <MDBRow className="mt-4" >
           <MDBCol className="mx-auto mb-4" style={{ padding: "0 15px" }}>
-            <div className="qq1">
+            <div className="qq1" >
               <p>20+</p>
               <p style={{ color: "#DA916D" }}>PROJECTS</p>
               <p>COMPLETED</p>

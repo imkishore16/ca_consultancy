@@ -7,6 +7,8 @@ import Home from "./components/home";
 import Carousal from "./components/Carousal";
 import Foot from "./components/foot";
 import Footer from "./components/Footer";
+import 'rsuite/dist/rsuite-no-reset.min.css';
+import Contact from "./components/contact";
 function App() {
   return (
     <>
@@ -24,6 +26,7 @@ function App() {
         <Test />
         <Carousal />
         <Foot />
+        <Contact></Contact>
         <Footer />
       </div>
     </>
